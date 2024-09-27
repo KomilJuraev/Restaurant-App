@@ -1,0 +1,107 @@
+[
+    {
+        "id": "m1",
+        "name": "Mac & Cheese",
+        "price": "8.99",
+        "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+        "image": "images/Mac-Cheese.jpg"
+    },
+    {
+        "id": "m2",
+        "name": "BBQ Chicken Pizza",
+        "price": "12.99",
+        "description": "Delicious pizza with grilled BBQ chicken, mozzarella, and red onions, topped with fresh cilantro.",
+        "image": "images/barbecue-bbq-chicken-pizza.jpg"
+    },
+    {
+        "id": "m3",
+        "name": "Caesar Salad",
+        "price": "6.99",
+        "description": "Crisp romaine lettuce, parmesan cheese, and croutons, tossed in a classic Caesar dressing.",
+        "image": "images/Grilled-Chicken-Caesar-Salad.jpg"
+    },
+    {
+        "id": "m4",
+        "name": "Bacon Cheeseburger",
+        "price": "10.49",
+        "description": "Juicy beef patty topped with cheddar cheese, crispy bacon, lettuce, tomato, and onion on a toasted bun.",
+        "image": "images/bacon-cheeseburger.jpg"
+    },
+    {
+        "id": "m5",
+        "name": "Margherita Pizza",
+        "price": "11.99",
+        "description": "Classic pizza with fresh mozzarella, basil, and tomatoes on a crispy thin crust.",
+        "image": "images/margherita-pizza.jpg"
+    },
+    {
+        "id": "m6",
+        "name": "Chicken Alfredo Pasta",
+        "price": "13.99",
+        "description": "Creamy Alfredo sauce with grilled chicken, served over fettuccine pasta with a side of garlic bread.",
+        "image": "images/Chicken-Alfredo-Pasta.webp"
+    },
+    {
+        "id": "m7",
+        "name": "Buffalo Wings",
+        "price": "9.49",
+        "description": "Spicy buffalo wings served with celery sticks and a side of ranch or blue cheese dressing.",
+        "image": "images/buffalo-wings.jpg"
+    },
+    {
+        "id": "m8",
+        "name": "Fish Tacos",
+        "price": "10.99",
+        "description": "Grilled fish tacos with cabbage slaw, fresh salsa, and a tangy lime crema.",
+        "image": "images/fish-tacos.jpg"
+    },
+    {
+        "id": "m9",
+        "name": "Chocolate Lava Cake",
+        "price": "7.49",
+        "description": "Warm chocolate cake with a molten chocolate center, served with a scoop of vanilla ice cream.",
+        "image": "images/chocolate-lava-cakes.jpg"
+    },
+    {
+        "id": "m10",
+        "name": "Steak Frites",
+        "price": "18.99",
+        "description": "Grilled steak served with crispy French fries and a side of garlic herb butter.",
+        "image": "images/Steak-Frites.jpg"
+    },
+    {
+        "id": "m11",
+        "name": "Grilled Salmon",
+        "price": "15.99",
+        "description": "Perfectly grilled salmon fillet served with steamed vegetables and a side of lemon butter sauce.",
+        "image": "images/grilled-salmon.jpg"
+    },
+    {
+        "id": "m12",
+        "name": "Veggie Burger",
+        "price": "9.99",
+        "description": "A hearty plant-based burger patty with lettuce, tomato, avocado, and vegan mayo on a whole-grain bun.",
+        "image": "images/Veggie-Burger.jpg"
+    },
+    {
+        "id": "m13",
+        "name": "Spaghetti Carbonara",
+        "price": "11.49",
+        "description": "Classic Italian pasta dish made with eggs, Parmesan cheese, pancetta, and pepper, served over al dente spaghetti.",
+        "image": "images/Spaghetti-Carbonara.jpg"
+    },
+    {
+        "id": "m14",
+        "name": "Shrimp Scampi",
+        "price": "14.99",
+        "description": "Succulent shrimp sautéed in a garlic butter sauce with white wine, lemon, and parsley, served over linguine.",
+        "image": "images/Shrimp-Scampi.jpg"
+    },
+    {
+        "id": "m15",
+        "name": "Chicken Tenders",
+        "price": "9.49",
+        "description": "Crispy golden-brown chicken tenders, served with fries and a side of honey mustard or barbecue sauce.",
+        "image": "images/Chicken-Tenders.jpg"
+    }
+]

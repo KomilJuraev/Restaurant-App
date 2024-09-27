@@ -1,0 +1,275 @@
+body {
+  height: 100vh;
+  background-color: rgb(235, 227, 217);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 150px;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.restaurant-name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(250, 92, 7);
+}
+
+.cart {
+  font-size: 22px;
+  font-family: sans-serif;
+  color: rgb(250, 92, 7);
+  border: none;
+  background-color: rgb(235, 227, 217);
+}
+
+.cart:hover {
+  font-size: 25px;
+  color: rgb(212, 80, 9);
+}
+
+.menu-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu-card-container {
+  border: solid;
+  border-width: 1px;
+  margin: 10px 25px;
+  background-color: rgb(209, 196, 178);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+
+.meal-images {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.meal-name {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+.price {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.meal-desc {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 500px;
+}
+
+.add-button-container {
+  margin-top: auto;
+  width: 500px;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.add-button-container>button {
+  margin-top: 10px;
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(143, 134, 121);
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.add-button-container>button:hover {
+  background-color: rgb(90, 81, 70);
+}
+
+.decrement-btn {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 10px;
+  background-color: rgb(141, 136, 109);
+  border: none;
+}
+
+.decrement-btn:hover {
+  font-size: 30px;
+}
+
+.increment-btn {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+  background-color: rgb(141, 136, 109);
+  border: none;
+}
+
+.increment-btn:hover {
+  font-size: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cart-modal {
+  width: 600px;
+  background-color: rgb(141, 136, 109);
+  border: none;
+  border-radius: 5px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.no-items-msg {
+  margin: 0;
+  color: rgb(114, 23, 23);
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.food-name-section {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.quantity-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-price-section {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.modal-form {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.continue-btn {
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(77, 87, 106);
+  color: white;
+  font-size: 15px;
+}
+
+.continue-btn:hover {
+  background-color: rgb(48, 55, 68);
+}
+
+.close-btn {
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(106, 77, 77);
+  color: white;
+  font-size: 15px;
+}
+
+.close-btn:hover {
+  background-color: rgb(69, 47, 47);
+}
+
+.input-container {
+  display: grid;
+  grid-template-columns: 150px 300px;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#checkout-form {
+  margin-top: 30px;
+}
+
+.total-container {
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-top: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input-label {
+  font-size: 18px;
+}
+
+.input-container > input {
+  height: 25px;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-success-msg {
+  margin-bottom: 0;
+  color: rgb(10, 134, 92);
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.second-success-msg {
+  margin-bottom: 0;
+  color: rgb(15, 59, 45);
+  font-size: 20px;
+}
+
+.success-btn-cont {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
